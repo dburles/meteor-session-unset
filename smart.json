@@ -1,0 +1,8 @@
+{
+  "name": "session-unset",
+  "description": "Adds an unset method to Session",
+  "homepage": "https://github.com/dburles/meteor-session-unset",
+  "author": "David Burles (http://twitter.com/dburles)",
+  "version": "0.1.0",
+  "git": "https://github.com/dburles/meteor-session-unset.git"
+}
