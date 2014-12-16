@@ -1,8 +1,12 @@
 Package.describe({
-  summary: 'Adds an unset method to Session'
+  name: 'dburles:session-unset',
+  summary: 'Adds an unset method to Session',
+  version: '1.0.0',
+  git: 'https://github.com/dburles/meteor-session-unset.git'
 });
 
-Package.on_use(function(api) {
+Package.onUse(function(api) {
+  api.versionsFrom('1.0');
   api.use('session');
-  api.add_files('unset.js', 'client');
+  api.addFiles('unset.js', 'client');
 });
